@@ -17,9 +17,13 @@ N 개의 점수들 중, 중간값에 해당하는 점수를 정답으로 출력�
 """
 
 def solution():
+    # 점수 개수 N
     N = int(input())
+    # N개의 점수 score
     score = list(map(int, input().split()))
+    # N개의 점수를 오름차순 정렬한다.
     score.sort()
+    # 오름차순 정렬된 점수 중 중간값을 출력한다.
     print(score[len(score)//2])
 
 solution()
