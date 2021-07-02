@@ -28,11 +28,7 @@ def solution():
         # 3, 6, 9의 개수에 따른 결과를 출력한다.
         if result < 1:
             print(string_n, end=' ')
-        elif 1 <= result < 2:
-            print('-', end=' ')
-        elif 2 <= result < 3:
-            print('--', end=' ')
         else:
-            print('---', end=' ')
+            print('-' * result, end=' ')
 
 solution()
