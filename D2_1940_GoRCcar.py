@@ -1,4 +1,5 @@
 """Problem : D2 1940 가랏!RC카!(Go! RC car!)
+
 RC카의 이동거리를 계산하려고 한다.
 입력으로 매초마다 아래와 같은 command가 정수로 주어진다.
 0 : 현재 속도 유지, 1 : 가속, 2 : 감속
@@ -33,7 +34,7 @@ def solution():
     Example:
         >>> 1       : input T
         >>> 2       : input N
-        >>> 1 2     : input commands
+        >>> 1 2     : input command and acceleration
         >>> 2 1
         >>> #1 3    : output result
     """
